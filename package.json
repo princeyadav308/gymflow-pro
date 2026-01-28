@@ -1,1 +1,28 @@
-{\n  "name": "gymflow-pro",\n  "version": "1.0.0",\n  "description": "GymFlow Pro backend and frontend monorepo setup",\n  "main": "index.js",\n  "scripts": {\n    "start": "node index.js",\n    "test": "echo 'Error: no test specified' && exit 1"\n  },\n  "repository": {\n    "type": "git",\n    "url": "https://github.com/princeyadav308/gymflow-pro.git"\n  },\n  "author": "princeyadav308",\n  "license": "ISC",\n  "dependencies": {},\n  "devDependencies": {}\n}
+{
+  "name": "gymflow",
+  "version": "1.0.0",
+  "description": "A gym management application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "redis": "^4.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "cors": "^2.8.5",
+    "helmet": "^4.6.0",
+    "validator": "^13.6.0",
+    "axios": "^0.21.1",
+    "qrcode": "^1.4.4",
+    "twilio": "^3.62.0",
+    "nodemailer": "^6.6.5"
+  },
+  "author": "princeyadav308",
+  "license": "ISC"
+}
